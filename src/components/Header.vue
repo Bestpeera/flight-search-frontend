@@ -6,11 +6,10 @@
       </router-link>
       <ul class="flex space-x-6">
         <li>
-  <router-link :to="{ name: 'login' }" class="text-gray-700 hover:text-gray-900">
-    <i class="ion-compose"></i> Login/Register
-  </router-link>
-
-  </li>
+          <router-link :to="{ name: 'login' }" class="text-gray-700 hover:text-gray-900">
+            <i class="ion-compose"></i> Login/Register
+          </router-link>
+        </li>
       </ul>
     </div>
   </nav>
