@@ -7,24 +7,15 @@
       </ul>
       <form @submit.prevent="onSubmit(email, password)">
         <div class="mb-4">
-          <input
-            class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            type="email"
-            v-model="email"
-            placeholder="Email"
-          />
+          <input class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            type="email" v-model="email" placeholder="Email" />
         </div>
         <div class="mb-4">
-          <input
-            class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            type="password"
-            v-model="password"
-            placeholder="Password"
-          />
+          <input class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            type="password" v-model="password" placeholder="Password" />
         </div>
         <button
-          class="w-full bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-        >
+          class="w-full bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
           Login
         </button>
       </form>
